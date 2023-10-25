@@ -12,6 +12,7 @@ except ImportError:
 
     os.system("pip3 install click")
     os.system("pip3 install PyGithub")
+    os.system("/bin/bash setup.sh")
     import click
 
 
